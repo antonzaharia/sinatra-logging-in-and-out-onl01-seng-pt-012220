@@ -1,4 +1,4 @@
-class User
+class User < Activerecord::Base
   attr_accessor :username, :password, :balance
 
   def initialize(args)
