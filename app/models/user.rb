@@ -5,5 +5,6 @@ class User
     @username = args[:username]
     @password = args[:password]
     @balance = args[:balance]
-
+  end
+  
 end
