@@ -1,3 +1,5 @@
 class User < ActiveRecord::Base
-  validates_presence_of :username, :password, :balance
+  attr_accessor :username, :password, :balance
+
+
 end
