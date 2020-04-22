@@ -10,7 +10,7 @@ class User < ActiveRecord::Base
     @@all << self
   end
 
-  def sefl.all
+  def self.all
     @@all
   end
 
