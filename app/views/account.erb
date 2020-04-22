@@ -7,12 +7,6 @@
   </head>
   <body id="page-top">
 
-    <% if Helpers.is_logged_in?(session) %>
-        <%  %>
-    <% else %>
-        <% redirect to(':error')%>
-    <% end %>
-
     <form action="/logout" method="post">
       <input type="submit" value="Log Out"
     </form>
