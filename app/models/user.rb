@@ -6,5 +6,5 @@ class User
     @password = args[:password]
     @balance = args[:balance]
   end
-  
+
 end
